@@ -3,7 +3,7 @@ global with sharing class TestClass {
     }
     global class C1 extends B {
         global void SomeMethod() {
-            System.debug('Something');
+            System.debug('Something else');
         }
     }
     global class C2 extends B {
